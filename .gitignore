@@ -1,1 +1,6 @@
-/venv/
+# Bỏ qua thư mục môi trường ảo
+venv/
+
+# Các file/thư mục khác nên bỏ qua trong project Python
+__pycache__/
+*.pyc
