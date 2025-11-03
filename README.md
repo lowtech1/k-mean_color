@@ -44,48 +44,8 @@ Cài đặt các thư viện cần thiết:
 pip install numpy opencv-python matplotlib scikit-learn pillow
 
 ```
+Hoặc mở qua terminal:
+```
 jupyter notebook k-mean_color.ipynb
-```
-k = 8  # số màu cần giữ lại
-```
-# 1. Import thư viện
-```
-import cv2
-import numpy as np
-import matplotlib.pyplot as plt
-from sklearn.cluster import KMeans
-from PIL import Image
-```
-# 2. Đọc ảnh và chuyển đổi không gian màu
-```
-img = cv2.imread("imgs/sample.jpg")
-img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-pixels = img.reshape((-1, 3))
-```
-# 3. Áp dụng K-Means
-```
-k = 8
-kmeans = KMeans(n_clusters=k, random_state=42)
-kmeans.fit(pixels)
-colors = np.array(kmeans.cluster_centers_, dtype=np.uint8)
-labels = kmeans.labels_
-```
-# 4. Tạo ảnh mới với màu đã được phân cụm
-```
-quantized = colors[labels].reshape(img.shape)
-Image.fromarray(quantized).save("imgs/quantized_k8.jpg")
-```
-# 5. Hiển thị kết quả
-```
-plt.figure(figsize=(10,5))
-plt.subplot(1,2,1)
-plt.title("Ảnh gốc")
-plt.imshow(img)
-plt.axis("off")
 
-plt.subplot(1,2,2)
-plt.title(f"Ảnh sau phân cụm (k={k})")
-plt.imshow(quantized)
-plt.axis("off")
-plt.show()
----
+
