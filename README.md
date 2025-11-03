@@ -42,10 +42,7 @@ Kết quả giúp tạo ra ảnh với số màu tối giản nhưng vẫn giữ
 Cài đặt các thư viện cần thiết:
 ```
 pip install numpy opencv-python matplotlib scikit-learn pillow
-
 ```
 Hoặc mở qua terminal:
 ```
 jupyter notebook k-mean_color.ipynb
-
-
