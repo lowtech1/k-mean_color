@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 # Bỏ qua thư mục môi trường ảo
 venv/
 
 # Các file/thư mục khác nên bỏ qua trong project Python
 __pycache__/
 *.pyc
+=======
+venv/
+>>>>>>> b1c50d3e60fd1188b468377a2049d4ae981224e9
