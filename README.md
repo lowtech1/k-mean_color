@@ -3,8 +3,8 @@
 
 ## 👥 Giới thiệu nhóm
 - **Nhóm:** 1  
-- **Môn học:** Hệ cơ sở tri thức  
-- **Đề tài:** Phân cụm màu ảnh bằng thuật toán K-Means  
+- **Môn học:** Xử lý ảnh và thị giác máy tính  
+- **Đề tài:** 7. Phân cụm màu ảnh bằng thuật toán K-Means  
 
 **Danh sách thành viên:**
 
