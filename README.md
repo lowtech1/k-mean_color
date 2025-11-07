@@ -23,10 +23,7 @@ Kết quả giúp tạo ra ảnh với số màu tối giản nhưng vẫn giữ
 - Giảm dung lượng ảnh và tăng hiệu quả lưu trữ.  
 - Xây dựng mô hình trích xuất bảng màu (palette) đặc trưng cho ảnh.  
 - Ứng dụng trong nén dữ liệu ảnh, thị giác máy tính, và thiết kế đồ họa.
-
----
-
-## 📁 Cấu trúc thư mục
+- Phân vùng ảnh hỗ trợ cho việc xây dụng mô hình Computer Vision
 
 ---
 
@@ -46,3 +43,4 @@ pip install numpy opencv-python matplotlib scikit-learn pillow
 Hoặc mở qua terminal:
 ```
 jupyter notebook k-mean_color.ipynb
+```
